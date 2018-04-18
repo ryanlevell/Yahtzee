@@ -1,11 +1,9 @@
 from random import randint
 
-"""Yahtzee"""
+"""Yahtzee Game"""
 
 #Dice animation function
-
 total_dice = [] 
-
 def dice(num):
 	
 	if num == 1:
@@ -74,7 +72,7 @@ length_counter(three)
 length_counter(four)
 length_counter(five)
 
-re_roll = input("How many dice do you want to re roll? ")
+re_roll = input("How many dice do you want to re-roll? ")
 new_roll = []
 for i in range(int(re_roll)):
 	dice_face = randint(1,6)
