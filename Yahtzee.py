@@ -1,6 +1,6 @@
 from random import randint
 
-"""Yahtzee Game!"""
+"""Yahtzee Game"""
 
 total_dice = [] 
 
